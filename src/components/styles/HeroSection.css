@@ -1,0 +1,31 @@
+/* src/components/HeroSection.css */
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    background: linear-gradient(rgba(0, 123, 255, 0.5), rgba(0, 123, 255, 0.5)), url('path/to/your/image.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    animation: slideIn 1s ease-out;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+    font-size: 1.25rem;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

@@ -1,0 +1,81 @@
+.open-discussions {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+  }
+  
+  .discussion-actions {
+    margin-bottom: 15px;
+  }
+  
+  .discussion-list {
+    margin-bottom: 20px;
+  }
+  
+  .discussion-item {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .discussion-item h3 {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .discussion-item p {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .toggle-form-btn,
+  .toggle-view-btn {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .toggle-form-btn:hover,
+  .toggle-view-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .discussion-form {
+    margin-top: 20px;
+  }
+  
+  .discussion-form input,
+  .discussion-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .discussion-form textarea {
+    resize: vertical;
+  }
+  
+  .submit-discussion-btn {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-discussion-btn:hover {
+    background-color: #218838;
+  }
+  

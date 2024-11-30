@@ -1,0 +1,113 @@
+/* General styles for the header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Styles for the buttons container */
+.auth-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+/* Button styles */
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Styles for the Home button */
+.logo a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button:hover,
+.logo a:hover {
+  background-color: #555;
+  color: white;
+}
+
+/* Button styles when user is logged in */
+.logout-btn, .aboutus-btn {
+  background-color: #007BFF;
+  color: white;
+}
+
+.logout-btn:hover, .aboutus-btn:hover {
+  background-color: blueviolet;
+}
+
+/* Button styles when user is logged out */
+.login-btn,
+.signup-btn {
+  background-color: #3498db;
+  color: white;
+}
+
+.login-btn:hover,
+.signup-btn:hover {
+  background-color: #2980b9;
+}
+
+/* Style for active or highlighted buttons */
+button.active,
+.logo a.active {
+  background-color: #2ecc71;
+  color: white;
+}
+
+/* Optional: If you want to make the active button more prominent */
+button.active:hover,
+.logo a.active:hover {
+  background-color: #27ae60;
+}
+
+/* Section styling for About Us and Contact Us page */
+section {
+  padding: 40px 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 100px auto; /* Centering */
+  font-family: 'Arial', sans-serif;
+}
+
+h2 {
+  color: #007BFF; /* Primary Color */
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #212529; /* Dark Gray */
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}

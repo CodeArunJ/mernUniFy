@@ -1,0 +1,81 @@
+.messages-page {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+  }
+  
+  .message-actions {
+    margin-bottom: 15px;
+  }
+  
+  .message-list {
+    margin-bottom: 20px;
+  }
+  
+  .message-item {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .message-item h4 {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .message-item p {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .toggle-form-btn,
+  .toggle-view-btn {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .toggle-form-btn:hover,
+  .toggle-view-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .message-form {
+    margin-top: 20px;
+  }
+  
+  .message-form input,
+  .message-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .message-form textarea {
+    resize: vertical;
+  }
+  
+  .submit-message-btn {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-message-btn:hover {
+    background-color: #218838;
+  }
+  

@@ -1,0 +1,38 @@
+.homepage {
+  text-align: center;
+  background-color: #f0f4f7;
+  padding: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.homepage-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1em; /* Set gap between buttons to 1 tab space (approx. 1em) */
+}
+
+.homepage-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.homepage-btn:hover {
+  background-color: #0056b3;
+}
+
+.homepage-btn:active {
+  transform: scale(0.98);
+}

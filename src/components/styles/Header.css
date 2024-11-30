@@ -1,0 +1,81 @@
+/* General styles for the header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Styles for the buttons container */
+.auth-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+/* Button styles */
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Styles for the Home button */
+.logo a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #007BFF;
+}
+
+button:hover,
+.logo a:hover {
+  background-color: #007BFF;
+  color: white;
+  border: #007BFF;
+  border-radius: 5px;
+}
+
+/* Button styles when user is logged in */
+.logout-btn {
+  background-color: #007BFF;
+  color: white;
+}
+
+.logout-btn:hover {
+  background-color: #007BFF;
+}
+
+/* Button styles when user is logged out */
+.login-btn,
+.signup-btn {
+  background-color: #3498db;
+  color: white;
+}
+
+.login-btn:hover,
+.signup-btn:hover {
+  background-color: #2980b9;
+}
+
+/* Style for active or highlighted buttons */
+button.active,
+.logo a.active {
+  background-color: #2ecc71;
+  color: white;
+}
+
+/* Optional: If you want to make the active button more prominent */
+button.active:hover,
+.logo a.active:hover {
+  background-color: #27ae60;
+}

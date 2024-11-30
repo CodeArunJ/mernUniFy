@@ -1,0 +1,28 @@
+/* src/components/TopContributors.css */
+.top-contributors-container {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.contributor-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #dee2e6;
+    transition: background-color 0.3s;
+}
+
+.contributor-item:hover {
+    background-color: #f1f1f1;
+}
+
+.contributor-item:last-child {
+    border-bottom: none;
+}
+
+.contributor-name {
+    font-weight: bold;
+    margin-left: 1rem;
+}
